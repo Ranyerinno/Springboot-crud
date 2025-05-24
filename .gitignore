@@ -1,0 +1,60 @@
+HELP.md
+
+# Maven & Gradle build directories
+/target/
+/build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Maven wrapper
+!.mvn/
+.mvn/wrapper/maven-wrapper.jar
+
+# STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Java build
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs and temp
+*.log
+*.tmp
+*.swp
+
+# Environment and secrets
+.env
+*.env
+*.key
+*.pem
+*.crt
+
+# Test output
+/test-output/
+/surefire-reports/
